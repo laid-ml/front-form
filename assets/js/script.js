@@ -11,7 +11,10 @@ $.addEventListener("DOMContentLoaded", () => {
       subject: $.querySelector("#subject").value,
       message: $.querySelector("#message").value,
     };
-    const response = await axios.post("http://localhost:3000/form", data);
+    const response = await axios.post(
+      "site--backend-form--y5mtbvcp7vlv.code.run/form",
+      data
+    );
     console.log(response);
   });
 });
