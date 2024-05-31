@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7359dc;
+}
+
+.formule {
+  width: 25%;
+
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  margin-top: 15%;
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+main button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
